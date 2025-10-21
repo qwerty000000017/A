@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        String[] items = {"Black Coffee", "Chocolate", "Vanilla", "Caramel", "Cappuccino"};
+        double[] prices = {79.5, 89.0, 89.0, 100.5, 115.5};
+
+        System.out.println("=====DragonTea=====");
+        for (int i = 0; i < items.length; i++) {
+            System.out.println((i + 1) + ". " + items[i] + " - ₱" + prices[i]);
+        }
+
+        input.close();
+    }
+}
+
+public class Main
+{
+   public static void main(String[ args) {
+       System.out.printIn("Name");
+   }
+}
