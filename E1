@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Act2_MUEDA {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("\nACTIVITY 2: USER INPUT\n");
+
+        System.out.print("Q1: What is your Name? ");
+        String Answer_Q1 = sc.nextLine();
+
+        System.out.print("Q2: How old are you? ");
+        String Answer_Q2 = sc.nextLine();
+
+        System.out.println("\nHello nice to meet you " + Answer_Q1);
+        System.out.println("Glad to know that you are " + Answer_Q2 + " years old");
+    }
+}
